@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Milk bottle: cap, neck, body; a blue band as the label. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,26 L62,26 L62,32 L60,32 L60,38 L68,48 L68,80 Q68,84 64,84 L44,84 Q40,84 40,80 L40,48 L48,38 L48,32 L46,32 Z" />
+    <path
+        android:fillColor="#2F5D8A"
+        android:pathData="M40,58 L68,58 L68,68 L40,68 Z" />
+</vector>

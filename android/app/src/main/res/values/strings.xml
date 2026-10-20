@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Giriraj Gaushala</string>
+    <string name="default_business_name">Giriraj Gaushala</string>
+    <string name="money">₹%1$s</string>
+    <string name="litres">%1$s L</string>
+    <string name="range">%1$s – %2$s</string>
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_ne" translatable="false">नेपाली</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="skip">Skip</string>
+    <string name="usual">Usual</string>
+    <string name="skip_short">Skip</string>
+    <string name="previous_day">Previous day</string>
+    <string name="next_day">Next day</string>
+    <string name="today_date">Today, %1$s</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <string name="from_date">From</string>
+    <string name="to_date">To</string>
+    <string name="litres_label">Litres</string>
+    <string name="invalid_litres">Enter litres, e.g. 1 or 1.5</string>
+
+    <!-- Tabs -->
+    <string name="tab_deliveries">Deliveries</string>
+    <string name="tab_customers">Customers</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Deliveries -->
+    <string name="morning">Morning</string>
+    <string name="evening">Evening</string>
+    <string name="shift_total">%1$s · %2$s</string>
+    <string name="no_customers_yet">No customers yet. Add them in the Customers tab.</string>
+    <string name="nobody_on_run">No deliveries on this run.</string>
+    <string name="extra_for_other">Extra for another customer</string>
+    <string name="skipped">Skipped</string>
+    <string name="extra_of_usual">Extra (usual %1$s)</string>
+    <string name="less_than_usual">Less (usual %1$s)</string>
+    <string name="usual_qty">Usual: %1$s</string>
+    <string name="banner_not_set_up">Google Sheet backup is not set up. Tap to set it up.</string>
+    <string name="banner_conflict">Backup stopped: the Google Sheet has newer data from another phone. Tap to fix.</string>
+    <string name="banner_failed">Backup to Google Sheet is not working. Tap to check.</string>
+
+    <!-- Customers -->
+    <string name="add_customer">Add customer</string>
+    <string name="search">Search name or phone</string>
+    <string name="total_to_collect">To collect from all: %1$s</string>
+    <string name="stopped">Delivery stopped</string>
+    <string name="plan_summary">Morning %1$s · Evening %2$s · %3$s/L</string>
+    <string name="due_amount">Due %1$s</string>
+    <string name="advance_amount">Advance %1$s</string>
+    <string name="settled">Settled</string>
+
+    <!-- Customer -->
+    <string name="balance_today">Balance today</string>
+    <string name="make_bill">Make bill</string>
+    <string name="payment_received">Payment received</string>
+    <string name="skip_days">Skip days</string>
+    <string name="back_to_usual">Back to usual</string>
+    <string name="month_usage">This month: %1$s · %2$s</string>
+    <string name="payments">Payments</string>
+    <string name="no_payments">No payments yet.</string>
+    <string name="delete_payment">Delete payment</string>
+    <string name="delete_payment_confirm">Delete this payment? The balance will go up by this amount.</string>
+    <string name="amount_rupees">Amount (₹)</string>
+    <string name="received_on">Received on</string>
+    <string name="payment_note">Note (optional), e.g. UPI or cash</string>
+    <string name="advance_hint">Paying more than the bill is fine: the extra shows as advance on the next bill.</string>
+
+    <!-- Customer form -->
+    <string name="edit_customer">Edit customer</string>
+    <string name="delete_customer">Delete customer</string>
+    <string name="delete_customer_confirm">Delete %1$s with all their deliveries and payments? This cannot be undone.</string>
+    <string name="customer_name">Name</string>
+    <string name="phone_whatsapp">WhatsApp number</string>
+    <string name="address">Address</string>
+    <string name="usual_milk">Usual milk every day</string>
+    <string name="morning_litres">Morning (L)</string>
+    <string name="evening_litres">Evening (L)</string>
+    <string name="rate_per_litre">Rate per litre (₹)</string>
+    <string name="delivery_starts">Delivery starts on</string>
+    <string name="change_applies_from">Change applies from</string>
+    <string name="past_days_unchanged">Days before this date keep their old litres and rate.</string>
+    <string name="opening_balance">Old balance before using this app (₹)</string>
+    <string name="opening_balance_hint">Amount still unpaid from earlier. If they paid in advance, put a minus (−) before it.</string>
+    <string name="plan_history">Changes over time</string>
+    <string name="plan_from">From %1$s: %2$s</string>
+
+    <!-- Bill screen -->
+    <string name="next_customer">Next customer</string>
+    <string name="this_month">This month</string>
+    <string name="till_today">Till today</string>
+    <string name="last_month">Last month</string>
+    <string name="bill_language">Bill in</string>
+    <string name="share_bill">Share bill</string>
+    <string name="send_whatsapp">Send on WhatsApp</string>
+    <string name="bill_caption">Milk bill %1$s. Amount to pay: %2$s</string>
+
+    <!-- Bill image (sent to the customer) -->
+    <string name="bill_phone">Phone: %1$s</string>
+    <string name="bill_title">Milk bill</string>
+    <string name="bill_legend">Litres per day. Red: not delivered. Green: extra milk.</string>
+    <string name="bill_milk_line">Milk %1$s × %2$s/L</string>
+    <string name="bill_no_milk">Milk</string>
+    <string name="bill_previous_due">Previous due</string>
+    <string name="bill_previous_advance">Advance paid earlier</string>
+    <string name="bill_received_on">Received %1$s</string>
+    <string name="bill_total_due">Total to pay</string>
+    <string name="bill_advance">Advance left</string>
+    <string name="bill_scan_to_pay">Scan to pay with any UPI app</string>
+    <string name="bill_upi_id">UPI: %1$s</string>
+    <string name="bill_nothing_due">Nothing to pay. Thank you!</string>
+    <string name="bill_advance_note">Advance will be adjusted in the next bill.</string>
+    <string name="bill_thanks">Thank you for choosing us</string>
+    <string name="upi_note">Milk %1$s</string>
+
+    <!-- Summary -->
+    <string name="tab_summary">Summary</string>
+    <string name="turnover_till_date">Turnover till date</string>
+    <string name="includes_starting">Includes starting amount %1$s</string>
+    <string name="no_starting_amount">Counted from the first delivery in this app</string>
+    <string name="starting_amount">Starting amount</string>
+    <string name="starting_amount_hint">Total sales before you started using this app. Leave empty to count from zero.</string>
+    <string name="received_till_date">Received till date</string>
+    <string name="still_to_collect">Still to collect</string>
+    <string name="by_month">Month by month (tap for each customer)</string>
+    <string name="no_sales_yet">No sales yet.</string>
+    <string name="month_line">%1$s · received %2$s</string>
+
+    <!-- Settings -->
+    <string name="language">Language</string>
+    <string name="sheet_backup">Google Sheet backup</string>
+    <string name="sheet_link">Sheet backup link (from setup)</string>
+    <string name="sheet_key">Secret key (from setup)</string>
+    <string name="backup_now">Save link and back up now</string>
+    <string name="restore_sheet">Restore from Google Sheet</string>
+    <string name="restore">Restore</string>
+    <string name="restore_confirm">Replace everything on this phone with the backup (%1$d customers, %2$d payments)?</string>
+    <string name="restore_done">Backup restored</string>
+    <string name="overwrite_sheet">Replace sheet with this phone</string>
+    <string name="overwrite_confirm">The Google Sheet has newer data from another phone. Replace it with this phone\'s data (%1$d customers)? The sheet\'s newer data will be lost.</string>
+    <string name="conflict_help">If this is a new phone, use \"Restore from Google Sheet\". Use \"Replace sheet\" only if this phone has the right data.</string>
+    <string name="sheet_not_set_up">Not set up</string>
+    <string name="sheet_working">Backing up…</string>
+    <string name="sheet_conflict">Stopped: the sheet has newer data from another phone</string>
+    <string name="sheet_never">Not backed up yet</string>
+    <string name="sheet_pending">Last backup %1$s. New changes will be sent shortly.</string>
+    <string name="sheet_ok">All changes backed up (%1$s)</string>
+    <string name="sheet_offline">Could not reach Google. Will try again when there is internet.</string>
+    <string name="sheet_bad_link">The sheet link is not working. Check the link from setup.</string>
+    <string name="sheet_wrong_key">The secret key does not match the one in the sheet\'s script.</string>
+    <string name="sheet_empty">The Google Sheet has no backup yet.</string>
+    <string name="on_the_bill">Shown on the bill</string>
+    <string name="business_name_en">Business name (English)</string>
+    <string name="business_name_ne">Business name (Nepali)</string>
+    <string name="business_phone">Business phone</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="upi_id_hint">For the payment QR, e.g. name@okaxis</string>
+    <string name="upi_id_invalid">Looks wrong. A UPI ID is like name@okaxis</string>
+    <string name="upi_name">Name on UPI (optional)</string>
+    <string name="default_rate">Rate for new customers (₹/L)</string>
+    <string name="country_code">Country code</string>
+    <string name="file_backup">Backup file</string>
+    <string name="file_backup_hint">An extra copy as one file, e.g. in Google Drive. Also restores without internet.</string>
+    <string name="backup_file_name">gaushala-backup-%1$s.json</string>
+    <string name="save_file">Save backup file</string>
+    <string name="restore_file">Restore from backup file</string>
+    <string name="file_saved">Backup file saved</string>
+    <string name="file_failed">Could not save the file. Try again.</string>
+    <string name="restore_bad_file">This is not a Giriraj Gaushala backup file.</string>
+
+    <!-- Google Sheet tabs. Tab names are fixed in code; these are the column headers. -->
+    <string name="sheet_skip">Skipped</string>
+    <string name="sheet_extra">Changed</string>
+    <string-array name="sheet_customer_headers">
+        <item>Name</item>
+        <item>Phone</item>
+        <item>Address</item>
+        <item>Morning L</item>
+        <item>Evening L</item>
+        <item>Rate ₹/L</item>
+        <item>Since</item>
+        <item>Balance ₹</item>
+    </string-array>
+    <string-array name="sheet_monthly_headers">
+        <item>Month</item>
+        <item>Customer</item>
+        <item>Litres</item>
+        <item>Milk ₹</item>
+        <item>Received ₹</item>
+    </string-array>
+    <string-array name="sheet_delivery_headers">
+        <item>Date</item>
+        <item>Customer</item>
+        <item>Morning L</item>
+        <item>Evening L</item>
+        <item>Note</item>
+    </string-array>
+    <string-array name="sheet_payment_headers">
+        <item>Date</item>
+        <item>Customer</item>
+        <item>Amount ₹</item>
+        <item>Note</item>
+    </string-array>
+</resources>

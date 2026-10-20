@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nepali. Machine-drafted: have a native speaker review before relying on it. -->
+<resources>
+    <string name="app_name">गिरिराज गौशाला</string>
+    <string name="default_business_name">गिरिराज गौशाला</string>
+    <string name="money">रु. %1$s</string>
+    <string name="litres">%1$s लि.</string>
+    <string name="range">%1$s – %2$s</string>
+
+    <!-- Common -->
+    <string name="back">पछाडि</string>
+    <string name="ok">ठिक छ</string>
+    <string name="cancel">रद्द गर्नुहोस्</string>
+    <string name="save">सेभ गर्नुहोस्</string>
+    <string name="delete">मेटाउनुहोस्</string>
+    <string name="edit">बदल्नुहोस्</string>
+    <string name="skip">नदिने</string>
+    <string name="usual">सधैँ जस्तै</string>
+    <string name="skip_short">छैन</string>
+    <string name="previous_day">अघिल्लो दिन</string>
+    <string name="next_day">अर्को दिन</string>
+    <string name="today_date">आज, %1$s</string>
+    <string name="previous_month">अघिल्लो महिना</string>
+    <string name="next_month">अर्को महिना</string>
+    <string name="from_date">देखि</string>
+    <string name="to_date">सम्म</string>
+    <string name="litres_label">लिटर</string>
+    <string name="invalid_litres">लिटर हाल्नुहोस्, जस्तै १ वा १.५</string>
+
+    <!-- Tabs -->
+    <string name="tab_deliveries">दूध वितरण</string>
+    <string name="tab_customers">ग्राहक</string>
+    <string name="tab_settings">सेटिङ</string>
+
+    <!-- Deliveries -->
+    <string name="morning">बिहान</string>
+    <string name="evening">बेलुका</string>
+    <string name="shift_total">%1$s · %2$s</string>
+    <string name="no_customers_yet">अहिलेसम्म ग्राहक छैनन्। ग्राहक ट्याबमा थप्नुहोस्।</string>
+    <string name="nobody_on_run">यो पालामा कसैलाई दूध छैन।</string>
+    <string name="extra_for_other">अर्को ग्राहकलाई थप दूध</string>
+    <string name="skipped">आज नदिने</string>
+    <string name="extra_of_usual">थप (सधैँ %1$s)</string>
+    <string name="less_than_usual">कम (सधैँ %1$s)</string>
+    <string name="usual_qty">सधैँ: %1$s</string>
+    <string name="banner_not_set_up">Google Sheet ब्याकअप मिलाइएको छैन। मिलाउन थिच्नुहोस्।</string>
+    <string name="banner_conflict">ब्याकअप रोकियो: Google Sheet मा अर्को फोनको नयाँ डाटा छ। मिलाउन थिच्नुहोस्।</string>
+    <string name="banner_failed">Google Sheet मा ब्याकअप हुन सकेको छैन। जाँच्न थिच्नुहोस्।</string>
+
+    <!-- Customers -->
+    <string name="add_customer">ग्राहक थप्नुहोस्</string>
+    <string name="search">नाम वा फोन खोज्नुहोस्</string>
+    <string name="total_to_collect">सबैबाट उठाउन बाँकी: %1$s</string>
+    <string name="stopped">दूध बन्द</string>
+    <string name="plan_summary">बिहान %1$s · बेलुका %2$s · %3$s/लि.</string>
+    <string name="due_amount">बाँकी %1$s</string>
+    <string name="advance_amount">अग्रिम %1$s</string>
+    <string name="settled">हिसाब मिलेको</string>
+
+    <!-- Customer -->
+    <string name="balance_today">आजसम्मको हिसाब</string>
+    <string name="make_bill">बिल बनाउनुहोस्</string>
+    <string name="payment_received">पैसा पाइयो</string>
+    <string name="skip_days">दूध नदिने दिन</string>
+    <string name="back_to_usual">सधैँ जस्तै गर्नुहोस्</string>
+    <string name="month_usage">यो महिना: %1$s · %2$s</string>
+    <string name="payments">भुक्तानी</string>
+    <string name="no_payments">अहिलेसम्म भुक्तानी छैन।</string>
+    <string name="delete_payment">भुक्तानी मेटाउनुहोस्</string>
+    <string name="delete_payment_confirm">यो भुक्तानी मेटाउने? बाँकी रकम यति नै बढ्छ।</string>
+    <string name="amount_rupees">रकम (रु.)</string>
+    <string name="received_on">पाएको मिति</string>
+    <string name="payment_note">कैफियत (ऐच्छिक), जस्तै UPI वा नगद</string>
+    <string name="advance_hint">बिलभन्दा बढी तिरे पनि हुन्छ: बढी रकम अर्को बिलमा अग्रिमको रूपमा देखिन्छ।</string>
+
+    <!-- Customer form -->
+    <string name="edit_customer">ग्राहकको विवरण बदल्नुहोस्</string>
+    <string name="delete_customer">ग्राहक मेटाउनुहोस्</string>
+    <string name="delete_customer_confirm">%1$s र उहाँका सबै दूध र भुक्तानीका विवरण मेटाउने? यो फिर्ता हुँदैन।</string>
+    <string name="customer_name">नाम</string>
+    <string name="phone_whatsapp">WhatsApp नम्बर</string>
+    <string name="address">ठेगाना</string>
+    <string name="usual_milk">दिनहुँ दिने दूध</string>
+    <string name="morning_litres">बिहान (लि.)</string>
+    <string name="evening_litres">बेलुका (लि.)</string>
+    <string name="rate_per_litre">प्रति लिटर दर (रु.)</string>
+    <string name="delivery_starts">दूध दिन सुरु गर्ने मिति</string>
+    <string name="change_applies_from">यो परिवर्तन लागू हुने मिति</string>
+    <string name="past_days_unchanged">यो मितिभन्दा अघिका दिनमा पुरानै लिटर र दर रहन्छ।</string>
+    <string name="opening_balance">यो एप चलाउनुअघिको बाँकी (रु.)</string>
+    <string name="opening_balance_hint">पहिलेको नतिरेको रकम। अग्रिम तिरेको भए अगाडि माइनस (−) राख्नुहोस्।</string>
+    <string name="plan_history">समयअनुसार परिवर्तन</string>
+    <string name="plan_from">%1$s देखि: %2$s</string>
+
+    <!-- Bill screen -->
+    <string name="next_customer">अर्को ग्राहक</string>
+    <string name="this_month">यो महिना</string>
+    <string name="till_today">आजसम्म</string>
+    <string name="last_month">गत महिना</string>
+    <string name="bill_language">बिलको भाषा</string>
+    <string name="share_bill">बिल पठाउनुहोस्</string>
+    <string name="send_whatsapp">WhatsApp मा पठाउनुहोस्</string>
+    <string name="bill_caption">दूधको बिल %1$s। तिर्नुपर्ने रकम: %2$s</string>
+
+    <!-- Bill image (sent to the customer) -->
+    <string name="bill_phone">फोन: %1$s</string>
+    <string name="bill_title">दूधको बिल</string>
+    <string name="bill_legend">दिनहुँको लिटर। रातो: दूध नदिएको। हरियो: थप दूध।</string>
+    <string name="bill_milk_line">दूध %1$s × %2$s/लि.</string>
+    <string name="bill_no_milk">दूध</string>
+    <string name="bill_previous_due">अघिल्लो बाँकी</string>
+    <string name="bill_previous_advance">पहिले अग्रिम तिरेको</string>
+    <string name="bill_received_on">%1$s मा पाएको</string>
+    <string name="bill_total_due">जम्मा तिर्नुपर्ने</string>
+    <string name="bill_advance">बाँकी अग्रिम</string>
+    <string name="bill_scan_to_pay">जुनसुकै UPI एपले स्क्यान गरेर तिर्नुहोस्</string>
+    <string name="bill_upi_id">UPI: %1$s</string>
+    <string name="bill_nothing_due">तिर्नुपर्ने केही छैन। धन्यवाद!</string>
+    <string name="bill_advance_note">अग्रिम रकम अर्को बिलमा मिलाइनेछ।</string>
+    <string name="bill_thanks">हामीलाई रोज्नुभएकोमा धन्यवाद</string>
+    <string name="upi_note">दूध %1$s</string>
+
+    <!-- Summary -->
+    <string name="tab_summary">हिसाब</string>
+    <string name="turnover_till_date">आजसम्मको कुल बिक्री</string>
+    <string name="includes_starting">सुरुको रकम %1$s सहित</string>
+    <string name="no_starting_amount">यो एपको पहिलो वितरणदेखि गनिएको</string>
+    <string name="starting_amount">सुरुको रकम</string>
+    <string name="starting_amount_hint">यो एप चलाउनुअघिको कुल बिक्री। शून्यबाट गन्न खाली छोड्नुहोस्।</string>
+    <string name="received_till_date">आजसम्म पाएको</string>
+    <string name="still_to_collect">उठाउन बाँकी</string>
+    <string name="by_month">महिनाअनुसार (हरेक ग्राहक हेर्न थिच्नुहोस्)</string>
+    <string name="no_sales_yet">अहिलेसम्म बिक्री छैन।</string>
+    <string name="month_line">%1$s · पाएको %2$s</string>
+
+    <!-- Settings -->
+    <string name="language">भाषा</string>
+    <string name="sheet_backup">Google Sheet ब्याकअप</string>
+    <string name="sheet_link">ब्याकअप लिङ्क (सेटअपबाट)</string>
+    <string name="sheet_key">गोप्य साँचो (सेटअपबाट)</string>
+    <string name="backup_now">लिङ्क सेभ गरेर अहिले ब्याकअप गर्नुहोस्</string>
+    <string name="restore_sheet">Google Sheet बाट फर्काउनुहोस्</string>
+    <string name="restore">फर्काउनुहोस्</string>
+    <string name="restore_confirm">यो फोनको सबै डाटा ब्याकअपले बदल्ने (%1$d ग्राहक, %2$d भुक्तानी)?</string>
+    <string name="restore_done">ब्याकअप फर्काइयो</string>
+    <string name="overwrite_sheet">Sheet लाई यो फोनको डाटाले बदल्नुहोस्</string>
+    <string name="overwrite_confirm">Google Sheet मा अर्को फोनको नयाँ डाटा छ। त्यसलाई यो फोनको डाटाले (%1$d ग्राहक) बदल्ने? Sheet को नयाँ डाटा हराउनेछ।</string>
+    <string name="conflict_help">नयाँ फोन हो भने \"Google Sheet बाट फर्काउनुहोस्\" थिच्नुहोस्। यो फोनको डाटा ठिक छ भने मात्र \"Sheet लाई बदल्नुहोस्\" थिच्नुहोस्।</string>
+    <string name="sheet_not_set_up">मिलाइएको छैन</string>
+    <string name="sheet_working">ब्याकअप हुँदैछ…</string>
+    <string name="sheet_conflict">रोकियो: Sheet मा अर्को फोनको नयाँ डाटा छ</string>
+    <string name="sheet_never">अहिलेसम्म ब्याकअप भएको छैन</string>
+    <string name="sheet_pending">अन्तिम ब्याकअप %1$s। नयाँ परिवर्तन छिट्टै पठाइनेछ।</string>
+    <string name="sheet_ok">सबै परिवर्तन ब्याकअप भयो (%1$s)</string>
+    <string name="sheet_offline">Google सम्म पुग्न सकिएन। इन्टरनेट आएपछि फेरि प्रयास हुनेछ।</string>
+    <string name="sheet_bad_link">Sheet को लिङ्क चलेन। सेटअपको लिङ्क जाँच्नुहोस्।</string>
+    <string name="sheet_wrong_key">गोप्य साँचो Sheet को स्क्रिप्टसँग मिलेन।</string>
+    <string name="sheet_empty">Google Sheet मा अहिलेसम्म ब्याकअप छैन।</string>
+    <string name="on_the_bill">बिलमा देखिने</string>
+    <string name="business_name_en">व्यवसायको नाम (अंग्रेजी)</string>
+    <string name="business_name_ne">व्यवसायको नाम (नेपाली)</string>
+    <string name="business_phone">व्यवसायको फोन</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="upi_id_hint">भुक्तानी QR का लागि, जस्तै name@okaxis</string>
+    <string name="upi_id_invalid">मिलेन। UPI ID name@okaxis जस्तो हुन्छ</string>
+    <string name="upi_name">UPI मा देखिने नाम (ऐच्छिक)</string>
+    <string name="default_rate">नयाँ ग्राहकको दर (रु./लि.)</string>
+    <string name="country_code">देशको कोड</string>
+    <string name="file_backup">ब्याकअप फाइल</string>
+    <string name="file_backup_hint">एउटै फाइलमा थप प्रति, जस्तै Google Drive मा। इन्टरनेट नभए पनि फर्काउन मिल्छ।</string>
+    <string name="backup_file_name">gaushala-backup-%1$s.json</string>
+    <string name="save_file">ब्याकअप फाइल सेभ गर्नुहोस्</string>
+    <string name="restore_file">ब्याकअप फाइलबाट फर्काउनुहोस्</string>
+    <string name="file_saved">ब्याकअप फाइल सेभ भयो</string>
+    <string name="file_failed">फाइल सेभ भएन। फेरि प्रयास गर्नुहोस्।</string>
+    <string name="restore_bad_file">यो गिरिराज गौशालाको ब्याकअप फाइल होइन।</string>
+
+    <!-- Google Sheet tabs -->
+    <string name="sheet_skip">नदिएको</string>
+    <string name="sheet_extra">फरक</string>
+    <string-array name="sheet_customer_headers">
+        <item>नाम</item>
+        <item>फोन</item>
+        <item>ठेगाना</item>
+        <item>बिहान लि.</item>
+        <item>बेलुका लि.</item>
+        <item>दर रु./लि.</item>
+        <item>देखि</item>
+        <item>बाँकी रु.</item>
+    </string-array>
+    <string-array name="sheet_monthly_headers">
+        <item>महिना</item>
+        <item>ग्राहक</item>
+        <item>लिटर</item>
+        <item>दूध रु.</item>
+        <item>पाएको रु.</item>
+    </string-array>
+    <string-array name="sheet_delivery_headers">
+        <item>मिति</item>
+        <item>ग्राहक</item>
+        <item>बिहान लि.</item>
+        <item>बेलुका लि.</item>
+        <item>कैफियत</item>
+    </string-array>
+    <string-array name="sheet_payment_headers">
+        <item>मिति</item>
+        <item>ग्राहक</item>
+        <item>रकम रु.</item>
+        <item>कैफियत</item>
+    </string-array>
+</resources>
